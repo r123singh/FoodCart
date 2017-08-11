@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_type_cart_order_items_name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:textColor="@color/BlueViolet"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/tv_type_cart_order_multiply_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="x"
+        android:textColor="@color/BlueViolet"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_type_cart_order_items_qty_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:textColor="@color/BlueViolet"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_type_cart_order_items_price_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingEnd="2dp"
+        android:paddingStart="40dp"
+        android:textColor="@color/BlueViolet"
+        android:textSize="16sp" />
+
+</LinearLayout>

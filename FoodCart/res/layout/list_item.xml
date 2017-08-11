@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@layout/rounded_corner_car_item"
+    android:animateLayoutChanges="true"
+	 >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/image"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:paddingBottom="10dp"
+        android:textColor="#CC0033"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/icon"
+        android:paddingLeft="10dp"
+        android:textColor="#3399FF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:layout_toRightOf="@+id/icon"
+        android:paddingLeft="10dp"
+        android:textColor="#3399FF"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/bin_cart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/image"
+        android:onClick="removeCartItem"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <Button
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:background="@color/DarkBlue"
+        android:text="@string/button_option"
+        android:textColor="@color/White"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/addnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/options"
+        android:layout_marginBottom="10dp"
+        android:background="@color/DarkBlue"
+        android:text="@string/button_addnote"
+        android:textColor="@color/White"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/qty_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/options"
+        android:layout_toRightOf="@+id/addnote"
+        android:hint="@string/qtylabel"
+        android:paddingLeft="10dp"
+        android:textColor="@color/Black"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/quantitySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/qty_label"
+        android:layout_below="@+id/desc"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/qty_label"
+        android:background="@android:drawable/spinner_dropdown_background"
+        android:entries="@array/quantity_array"
+        android:paddingLeft="20dp"
+        android:spinnerMode="dropdown" />
+
+</RelativeLayout>

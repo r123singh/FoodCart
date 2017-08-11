@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Black" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/im_cart_type_image_detail_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/image"
+                    android:padding="4dp"
+                    android:scaleType="center" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingEnd="2dp"
+                android:paddingStart="100dp" >
+
+                <TextView
+                    android:id="@+id/tv_type_cart_image_detail_price_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/tv_type_cart_image_detail_price_string"
+                    android:textColor="@color/WhiteSmoke"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_type_cart_image_detail_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/tv_type_cart_image_detail_price_string"
+                    android:textColor="@color/WhiteSmoke"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_type_cart_edit_order_your_order_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:text="@string/type_cart_edit_order_your_order_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_type_cart_edit_order_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="2dp"
+                android:paddingStart="50dp"
+                android:text="@string/type_cart_edit_order_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/list_cart_type_order_button_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickvieworderitems"
+                android:text="@string/typ_cart_view_product_description"
+                android:textColor="@color/WhiteSmoke" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_type_cart_sub_total_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:text="@string/type_cart_sub_total_label_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_type_cart_sub_total_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="4dp"
+                android:paddingStart="100dp"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_type_cart_delivery_charge_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:text="@string/type_cart_delivery_charge_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_type_cart_delivery_charge_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="4dp"
+                android:paddingStart="100dp"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_type_cart_packaging_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:text="@string/type_cart_packaging_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_type_cart_packaging_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="4dp"
+                android:paddingStart="100dp"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_type_cart_total_charge_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:text="@string/type_cart_total_charge_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_type_cart_total_charge_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="4dp"
+                android:paddingStart="100dp"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_type_cart_delivery_date_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/ch_type_cart_delivery_time_priority_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/type_cart_delivery_time_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_type_cart_change_delivery_address_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/type_cart_change_delivery_address_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_type_cart_checkout_button_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkoutorderitemsintherodercart"
+                android:padding="4dp"
+                android:text="@string/type_cart_checkout_button_string"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

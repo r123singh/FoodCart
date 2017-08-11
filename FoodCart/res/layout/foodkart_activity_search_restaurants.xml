@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/im_search_type_company_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:background="@color/Red"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:id="@+id/tv_type_edit_location_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/type_edit_location_string"
+        android:textAlignment="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16sp" />
+
+    <com.foodapp.search.CustomAutoCompleteTextView
+        android:id="@+id/atv_type_search_edit_location_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_type_search_current_location_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_search_current_location_string"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_type_search_find_restaurant_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onclickingfindrestaurantButton"
+        android:text="@string/btn_type_search_find_restaurant_string"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16sp" />
+
+</LinearLayout>

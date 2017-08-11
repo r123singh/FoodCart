@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="56dp" >
+
+        <EditText
+            android:id="@+id/et_checkout_order_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_checkout_order_first_name_hint"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_checkout_order_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_checkout_order_last_name_hint"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_checkout_order_address_line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_checkout_order_address_line1_hint"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/et_checkout_order_address_line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_checkout_order_address_line2_hint"
+            android:inputType="textPostalAddress" />
+
+        <Button
+            android:id="@+id/btn_checkout_order_place_order"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onclickingplaceorderButton"
+            android:padding="12dp"
+            android:text="@string/btn_checkout_order_place_order_label" />
+        
+    </LinearLayout>
+
+</ScrollView>

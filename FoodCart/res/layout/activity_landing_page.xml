@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="12dp"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btn_landing_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@layout/landing_rounded_corner_car_item"
+        android:text="@string/button_landing_menu"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:onClick="onclickMenubutton"
+         />
+
+    <Button
+        android:id="@+id/btn_landing_offer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="20dp"
+        android:background="@layout/landing_rounded_corner_car_item"
+        android:text="@string/button_landing_offers"
+        android:textAllCaps="true"
+        android:textColor="@color/White" />
+
+</LinearLayout>

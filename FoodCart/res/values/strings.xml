@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Food Cart</string>
+    <string name="app_search">Search</string>
+    <string name="app_restaurant">Restaurants</string>
+    <string name="app_menu">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="image">Thumbnail</string>
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="qtylabel">Quantity</string>
+    <string name="btn_order_quantity_decrement">-</string>
+    <string name="btn_order_quantity_increment">+</string>
+
+    <string-array name="quantity_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="cart_title">Cart</string>
+    <string name="cart_initial_count_zero">0</string>
+    <string name="history_title">History</string>
+    <string name="button_option">Options</string>
+    <string name="button_addnote">Add Note</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">MainActivity</string>
+    <string name="title_activity_landing_page">LandingPageActivity</string>
+    <string name="button_landing_menu">Menu</string>
+    <string name="button_landing_offers">Everyday Offers</string>
+    <string name="title_activity_menu_category">MenuCategoryActivity</string>
+    <string name="title_activity_restaurants_landing">RestaurantsLandingActivity</string>
+    <string name="restaurant_distance_label">Distance:</string>
+    <string name="restaurant_deliveryest_label">Delivery Est:</string>
+    <string name="restaurant_delivery_charges_label">Delivery</string>
+    <string name="restaurant_minimum_order_label">Min. Order</string>
+    <string name="type_order_price_string">Price</string>
+    <string name="type_order_remarks_edit_text_string">Special Instructions</string>
+    <string name="type_order_add_button_string">Add Order To Cart</string>
+    <string name="tv_type_cart_image_detail_price_string">Total</string>
+    <string name="type_cart_edit_order_string">Edit Order</string>
+    <string name="type_cart_edit_order_your_order_string">Your Order </string>
+    <string name="type_cart_sub_total_label_string">Sub Total</string>
+    <string name="typ_cart_view_product_description">View Product Description</string>
+    <string name="type_cart_delivery_charge_string">Delivery Charges</string>
+    <string name="type_cart_packaging_string">Packaging</string>
+    <string name="type_cart_total_charge_string">Total</string>
+    <string name="type_cart_delivery_time_string">Delivery Time</string>
+    <string name="type_cart_change_delivery_address_string">Change Your Address Here</string>
+    <string name="type_cart_checkout_button_string">Checkout</string>
+    <string name="type_edit_location_string">Please Enter Your Location</string>
+    <string name="btn_search_current_location_string">Get Current Location</string>
+    <string name="btn_type_search_find_restaurant_string">Search Restaurant</string>
+    <string name="et_checkout_order_first_name_hint">First Name</string>
+    <string name="et_checkout_order_last_name_hint">Last Name</string>
+    <string name="et_checkout_order_address_line1_hint">Ex. room no,house no</string>
+    <string name="et_checkout_order_address_line2_hint">Ex. Locality,pincode,city</string>
+    <string name="btn_checkout_order_place_order_label">Place Your Order</string>
+    <string name="atv_type_search_edit_location_detail_string">Type in Your Location</string>
+    <string name="key_add_order_landing_total_price_value">totatitemprice</string>
+
+</resources>
